@@ -1,4 +1,4 @@
-package FactoryMethod;
+package ufba.FactoryMethod;
 
 class CriadorDocumentacaoFactory {
 

@@ -1,4 +1,4 @@
-package ufba.factorymethod;
+package ufba.FactoryMethod;
 
 import java.util.Date;
 
