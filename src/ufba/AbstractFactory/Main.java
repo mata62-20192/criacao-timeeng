@@ -1,5 +1,5 @@
 package ufba.AbstractFactory;
-import java.util.Date;
+
 import ufba.elementos.Cabecalho;
 import ufba.elementos.Corpo;
 import ufba.elementos.Rodape;

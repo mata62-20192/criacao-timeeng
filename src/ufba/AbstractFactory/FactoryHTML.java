@@ -6,7 +6,7 @@ import ufba.elementos.html.CabecalhoHTML;
 import ufba.elementos.html.CorpoHTML;
 import ufba.elementos.html.RodapeHTML;
 
-public class FactoryHTML extends FactoryDocuentacao {
+public class FactoryHTML extends DocumentacaoFactory {
     public FactoryHTML() {
     }
 

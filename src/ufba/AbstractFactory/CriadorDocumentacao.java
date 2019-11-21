@@ -6,7 +6,7 @@ import ufba.elementos.Corpo;
 import ufba.elementos.Rodape;
 
 public class CriadorDocumentacao {
-	private DocumentacaoFactory fabrica;
+	private DocumentacaoFactory factory;
 	public CriadorDocumentacao(DocumentacaoFactory factory) {
     this.factory = factory;
 	}

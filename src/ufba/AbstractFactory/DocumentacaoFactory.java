@@ -4,7 +4,7 @@ import ufba.elementos.Corpo;
 import ufba.elementos.Rodape;
 
 public abstract class DocumentacaoFactory{
-    public FabricaDocumentacao() {}
+    public DocumentacaoFactory() {}
 
     public abstract Cabecalho criarCabecalho();
 
