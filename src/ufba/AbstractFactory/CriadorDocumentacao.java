@@ -20,20 +20,20 @@ public class CriadorDocumentacao {
     }
 
     public Cabecalho gerarCabecalho() {
-        Cabecalho cabecalho = this.factory.criaCabecalho();
+        Cabecalho cabecalho = this.factory.criarCabecalho();
         cabecalho.setTitulo("Padroes de projeto");
         cabecalho.setEmpresa("Universidade Federal da Bahia");
         return cabecalho;
     }
 
     public Corpo gerarCorpo() {
-        Corpo corpo = this.factory.criaCorpo();
+        Corpo corpo = this.factory.criarCorpo();
         corpo.setTexto("Aula de padroes de projeto na disciplina Engenharia de Software I.");
         return corpo;
     }
 
     public Rodape gerarRodape() {
-        Rodape rodape = this.factory.criaRodape();
+        Rodape rodape = this.factory.criarRodape();
         rodape.setData(new Date());
         return rodape;
     }
