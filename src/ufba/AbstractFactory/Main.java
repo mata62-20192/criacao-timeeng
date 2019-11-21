@@ -16,6 +16,7 @@ public class Main {
         System.out.println(cabecalho.getOutput());
         System.out.println(corpo.getOutput());
         System.out.println(rodape.getOutput());
+        
         DocumentacaoFactory factoryMARKDOWN = new FactoryMARKDOWN();
         criador.setFactory(factoryMARKDOWN);
         cabecalho = criador.gerarCabecalho();
